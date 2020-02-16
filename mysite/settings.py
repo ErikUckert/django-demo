@@ -25,7 +25,7 @@ SECRET_KEY = '^99gfvh5gyyczy5dkc!z3_jli9vzn1z(8ifso92_(m27&xioo@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'fallas.pythonanywhere.com']
 
 
 # Application definition

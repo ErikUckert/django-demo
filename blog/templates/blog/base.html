@@ -1,19 +1,19 @@
 {% load static %}
 <html>
-    <head>
-        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
-        <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-    </head>
+    <header>
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+        <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
+    </header>
     <body>
-        <div class="page-header">
-            <h1><a href="/">This is a simple Django-powered Blog Demo</a></h1>
-        </div>
-        <div class="content-container">
-            <div class="row">
-                <div class="col-md-8">
+        <div class="content">
+            <div class="head">
+                {% load static %}
+                <img class="head-image" src="{% static "media/welt.png" %}" alt="My image">            
+                <h1>Eti goes to Columbia</h1>
+            </div>
+            <div class="band">    
                 {% block content %}
                 {% endblock %}
-                </div>
             </div>
         </div>
     </body>

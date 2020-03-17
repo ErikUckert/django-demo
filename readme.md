@@ -49,7 +49,7 @@ python3 manage.py runserver
 
 ### And this is, how it looks like...
 
-![Teaser Image](/media/teaser.png)
+![Teaser Image](/media/teaser.PNG)
 
 
 

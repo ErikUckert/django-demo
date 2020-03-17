@@ -47,5 +47,9 @@ python3 manage.py createsuperuser
 python3 manage.py runserver
 ```
 
+### And this is, how it looks like...
+
+![Teaser Image](/media/teaser.png)
+
 
 
